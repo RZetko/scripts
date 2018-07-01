@@ -38,10 +38,10 @@ token = util.prompt_for_user_token(
 
 sp = spotipy.Spotify(auth=token)
 
-file = open("artists_converted.txt", "r",  encoding="utf8") 
+file = open("artists_plain.txt", "r",  encoding="utf8") 
 
 for line in file:
-    with open("artists_plain.txt", "a") as myfile:
+    with open("artists_converted.txt", "a") as myfile:
         result = sp.search(line, limit=1, type='artist')
 		
         if result['artists']['items']:
