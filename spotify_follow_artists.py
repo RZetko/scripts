@@ -10,7 +10,7 @@
 #	- replace username variable with your username
 #	- create file artists.txt in same folder as this python script consisting
 #	of one artist ID per line in Spotify ID format (ex. 1yDI9pWnlrJmi9kZn3gkCb)
-#	- run ./spotify_follor_artists.py
+#	- run ./spotify_follow_artists.py
 
 import pprint
 import sys
