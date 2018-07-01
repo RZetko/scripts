@@ -1,1 +1,1 @@
-Various script that I made to simplify things
+Various scripts that I made to simplify things
